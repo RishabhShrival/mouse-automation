@@ -1,0 +1,10 @@
+make sure install all libraries
+it will activate camera and mouse will move accoring to index finger tip,
+for click, tap thumb with bottom of index finger (to avoid continuous clicking just tap and release)
+avoid multiple hand in one frame.
+
+in click function 2 modes are given
+distance: it will click according to distance of thumb and bottom of index finger
+Velocity: it will click according to tap velocity and distance too.
+
+press q to quit
