@@ -1,10 +1,18 @@
-make sure install all libraries
-it will activate camera and mouse will move accoring to index finger tip,
-for click, tap thumb with bottom of index finger (to avoid continuous clicking just tap and release)
-avoid multiple hand in one frame.
+# Hand Gesture Controlled Mouse
 
-in click function 2 modes are given
-distance: it will click according to distance of thumb and bottom of index finger
-Velocity: it will click according to tap velocity and distance too.
+This project enables control of the mouse using hand gestures captured through a camera. The mouse will move according to the index finger tip, and clicking is done by tapping the thumb with the bottom of the index finger.
 
-press q to quit
+## Features
+- Move mouse cursor with the index finger tip.
+- Click by tapping the thumb with the bottom of the index finger.
+- Two click modes: 
+  - **Distance**: Clicks based on the distance between the thumb and the bottom of the index finger.
+  - **Velocity**: Clicks based on the tap velocity and distance.
+- Single hand detection to avoid confusion with multiple hands.
+
+## Installation
+
+Make sure to install all required libraries before running the project.
+
+```sh
+pip install opencv-python mediapipe pyautogui
